@@ -59,11 +59,10 @@ img{
 }
 .color-blue{
 	background-color: hsl(233, 100%, 69%);
-	box-shadow:   0px  hsla(233, 100%, 69% ,0.6) ;
+
 }
 .color-green{
 	background-color: hsl(171, 66%, 44%);
-	box-shadow:  0  0 0px hsla(171, 66%, 44% , 0.6)  ;
 }
 .no-bg-img{
 	background-image: unset;
@@ -215,6 +214,7 @@ footer ul{
 footer ul li{
 	font-size: 1.1rem;
 	line-height: 2rem;
+	text-align: left;
 }
 div.icon{
 	flex-direction: row;
@@ -223,8 +223,9 @@ div.icon{
      padding:3% 15% 0 10%;
 }
 .icon img{
-	width: 18%;
+	width: 100%;
+	padding: 6%;
+	margin:1% 5% 18% 5% ;
 	height: auto;
-	padding-bottom: 12%;
 }
 }
